@@ -42,6 +42,7 @@ https://yeun.github.io/open-color/
 
 --- 06 BORDER-RADIUS
 9px
+11px
 
 --- 07 WHITESPACE
 - SPACING SYSTEM (px)
@@ -85,6 +86,10 @@ body {
 
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--center-v {
@@ -143,7 +148,8 @@ body {
     border-radius: 10px;
 
     /* Put transition on original "state" */
-    transition: background-color 0.3s;
+    /* transition: background-color 0.3s; */
+    transition: all 0.3s;
 }
 
 .btn--full:link, 
@@ -154,7 +160,7 @@ body {
 .btn--full:hover, 
 .btn--full:active {
     background-color: #cf711f;
-
+    
 }
 
 .btn--outline:link, 
