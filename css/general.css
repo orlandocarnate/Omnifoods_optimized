@@ -15,7 +15,8 @@ Bold: 700
 Default: 1
 Small: 1.05
 Medium: 1.2
-Large: 1.6
+Paragraph Default: 1.6
+Large: 1.8
 
 - Line Spacing
 -0.5px
@@ -82,7 +83,7 @@ body {
 }
 
 /***************************************/
-/* GENERAL COMPONENTS */
+/* GENERAL REUSABLE COMPONENTS */
 /***************************************/
 .container {
   max-width: 120rem;
@@ -247,6 +248,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  line-height: 1.2;
 }
 
 .list-icon {
