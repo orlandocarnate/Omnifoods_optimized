@@ -74,12 +74,16 @@ html {
   /* 10px/16px = 0.625 or 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   color: #555;
+
+  /* Works with .header is position: relative */
+  overflow-x: hidden;
 }
 
 /***************************************/
